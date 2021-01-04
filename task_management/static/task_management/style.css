@@ -1,3 +1,25 @@
 body{
+    background-color: rgb(117, 116, 116);
+    border-radius: 50px;
+}
+header{
+    position:relative;
+    height:95%;
+    width:95%;
     background-color: black;
+    margin:auto;
+    top:3%;
+    border-radius: 50px;
+
+}
+section{
+    height:95%;
+    width:89%;
+    background-color: white;
+    position:absolute;
+    left:10%;
+    top:2.5%;
+    right:1%;
+    border-radius: 50px;
+
 }
