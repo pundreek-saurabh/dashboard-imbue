@@ -1,3 +1,14 @@
 body{
     background-color: black;
 }
+section{
+    height:95%;
+    width:89%;
+    background-color: white;
+    position:absolute;
+    left:10%;
+    top:2%;
+    right:1%;
+    border-radius: 50px;
+
+}
