@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+}
+.navbar{
+        position: absolute;
+        height:95%;
+        width:6%;
+        top:2.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color:white;
+    
+        
+        .mid{
+            display:flex;
+            flex-direction: column;
+            i{
+                color:white;
+                margin:30px;
+            }
+        }
+        .top{
+            i{
+                color:white;
+                margin: 30px;
+            }
+
+        }
+        .bottom{
+            i{
+                color:white;
+                margin: 30px;
+            }
+
+        }
+    }
+
+.container{
+    height:95%;
+    width:89%;
+    background-color:white;
+    position:absolute;
+    left:10%;
+    top:2.5%;
+    right:2.5%;
+    border-radius: 50px;
+}
