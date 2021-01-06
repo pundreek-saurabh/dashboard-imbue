@@ -3,10 +3,9 @@
 <link rel="stylesheet" type="text/css" href="{% static 'task_management/style.css' %}">
 <script src="https://kit.fontawesome.com/7e1f669ced.js" crossorigin="anonymous"></script>
 <body>
-<header class="navbar">
-
+<header class="sidebar">
         <div class ="top">
-        <i class="fas fa-thumbs-up fa-5x" style="font-size: 40px;"></i>
+        
         </div>
         <div class ="mid">
                 <i class="fas fa-synagogue"style="font-size:40px" ></i>
@@ -19,7 +18,39 @@
 
 
 </header>
-<section class="container">
+<section class="content">
+<div class="navbar">
+<h3>Dashboard</h3>
+<form class="search-bar">
+<input type="text" value=" Search" name="search">
+<span class="search"><i class="fas fa-search"></i></span>
+
+</form>
+</div>
+<div class="greetings">
+<p>Good Morning !</p>
+<h2> Check your daily tasks and schedules </h2>
+
+</div>
+<div class="activities">
+<h4>Activities</h4>
+</div>
+<div class="tasks">
+<h4>Today's tasks</h4>
+  <ul class="heading">
+    <li>Department</li>
+    <li>Stage</li>
+    <li>Assigned</li>
+    <li>Team</li>
+    <li>Date</li>
+
+    <li>Status</li>
+    <li>Action</li>
+  </ul>
+  <div class="cards"></div>
+  <div class="cards"></div>
+  <div class="cards"></div>
+</div>
     
 </section>
 </body>
