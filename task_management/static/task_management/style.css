@@ -1,3 +1,45 @@
-body{
-    background-color: black;
+body {
+  margin: 0px;
+  background-color: black;
+  position: relative;
 }
+
+.navbar {
+  position: absolute;
+  height: 95%;
+  width: 6%;
+  top: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.navbar .mid {
+  display: flex;
+  flex-direction: column;
+}
+.navbar .mid i {
+  color: white;
+  margin: 30px;
+}
+.navbar .top i {
+  color: white;
+  margin: 30px;
+}
+.navbar .bottom i {
+  color: white;
+  margin: 30px;
+}
+
+.container {
+  height: 95%;
+  width: 89%;
+  background-color: white;
+  position: absolute;
+  left: 10%;
+  top: 2.5%;
+  right: 2.5%;
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
